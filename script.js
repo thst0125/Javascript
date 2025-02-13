@@ -19,7 +19,7 @@ let person1 = {
   car: "313",
   nieces: 3,
   pets: "no pets",
-  girlfriend: "Donald",
+  Boyfriend: "Donald",
 };
 
 // 3 string datatyper

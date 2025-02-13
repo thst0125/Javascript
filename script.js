@@ -1,3 +1,5 @@
+// 2 objects som inneholder tre (+) parameter (for eksempel navn, alder, by)
+
 let person = {
   navn: "Donald",
   alder: 31,
@@ -19,6 +21,8 @@ let person1 = {
   pets: "no pets",
   girlfriend: "Donald",
 };
+
+// 3 string datatyper
 
 let message = "God morgen, ";
 let personName = person.navn;
@@ -45,6 +49,8 @@ let personName4 = person.navn;
 let questionMessage = message4 + person.navn;
 console.log(questionMessage);
 
+// 2 number datatyper
+
 let message5 =
   "For et tilfeldig spørsmål, men jeg skal selvfølgelig svare. Det er ";
 let carnumber = person.car;
@@ -63,6 +69,8 @@ let ageDolly = person1.alder;
 let ageAnswer = message7 + person1.alder;
 console.log(ageAnswer);
 
+// 2 array som inneholder 4 parameter (for eksempel frukt, bilmerker eller spill)
+
 let frukt = ["eple", "pære", "banan", "appelsin"];
 
 let film = ["interstellar", "pulp-fiction", "The Matrix", "The incredibles"];
@@ -70,7 +78,5 @@ let film = ["interstellar", "pulp-fiction", "The Matrix", "The incredibles"];
 let topMovies = film;
 
 console.log(film);
-
-let bestFruits = frukt;
 
 console.log(frukt);
